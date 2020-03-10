@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_cd_hoten"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:columnCount="9"
+			android:rowCount="1"
+			android:layout_gravity = "center"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:layout_marginLeft = "20px"
+			android:layout_marginRight = "20px"
+			android:clipToPadding="true">		
+
+			<TextView
+				android:text="NAME"
+				android:textSize = "22px"
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="200px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1" />
+			<TextView
+				android:text="GENDER"
+				android:textSize = "22px"	
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="120px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView2" />
+			<TextView
+				android:text="AGE"
+				android:textSize = "22px"	
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView3" />
+			<TextView
+				android:text="BLOCK"
+				android:textSize = "22px"
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView4" />
+			<TextView
+				android:text="AREA"
+				android:textSize = "22px"	
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView5" />
+			<TextView
+				android:text="FLOOR"
+				android:textSize = "22px"
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView6" />
+			<TextView
+				android:text="APM"
+				android:textSize = "22px"	
+				android:layout_marginBottom = "15px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="80px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView7" />
+
+			<ImageButton
+				android:src="@drawable/ic_delete"
+				android:id="@+id/imageButton_cmnd_sau" 
+				android:layout_width = "30px"
+				android:layout_marginBottom = "15px"
+				android:layout_height = "30px"
+				android:layout_marginLeft = "30px"
+				android:layout_gravity = "center"/>
+				
+
+		</GridLayout>
+
+</LinearLayout>

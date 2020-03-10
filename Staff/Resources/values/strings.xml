@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Staff</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Thông báo</string>
+  <string name="title_apartments">Chung cư</string>
+  <string name="title_residents">Cư dân</string>
+  <string name="title_parking">Giữ xe</string>
+</resources>

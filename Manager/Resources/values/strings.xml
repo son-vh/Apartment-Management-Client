@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">Manager</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_notifications">Thông báo</string>
+  <string name="title_residents">Cư dân</string>
+  <string name="title_apartment">Hỗ trợ</string>
+  <string name="hintHoVaTen">Họ và tên</string>
+  <string name="hintCMND">CMND</string>
+  <string name="hintDiaChi">Địa chỉ</string>
+  <string name="hintSoDienThoai">Số điện thoại</string>
+  <string name="hintMaChuHo">Mã chủ hộ</string>
+  <string name="hintNgaySinh">Ngày sinh</string>
+  <string name="hintToa">Tòa</string>
+  <string name="hintDay">Dãy</string>
+  <string name="hintTang">Tầng</string>
+  <string name="hintPhong">Phòng</string>
+  <string name="hintQuanHe">Quan hệ với chủ hộ</string>
+
+  <string name="title_equipment">Tài sản cư dân</string>
+  <string name="menu_item_equipment_delete">Xoá</string>
+  
+   <string name = "btn_confirm" > Gửi thông báo</string>
+  <string name = "txt_agp_add_detect_temperature" > Xác nhận</string>
+   <string name = "txt_support_information" > Thông tin hỗ trợ</string>
+
+
+</resources>
